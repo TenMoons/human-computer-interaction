@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="https://cdn.bootcss.com/font-awesome/5.8.0/css/all.css" rel="stylesheet" />
+		<title>球队简介</title>
+		<style>
+			@font-face {
+				font-family: BebasNeue-webfont;
+				src: url("../fonts/造字工房尚雅体演示版常规体.otf");
+			}
+			/*通用设置*/
+			a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+				padding: 0px;
+				margin: 0px;
+			}
+			body {
+				min-height: 100vh;
+				margin: 0;
+				padding: 0;
+				background: url('/img/back.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.box { 
+				width: 450px;
+				background: rgba(0, 0, 0, 0.4);
+				padding: 40px;
+				text-align: center;
+				color: white;
+				font-family: "bebasneue-webfont";
+			}
+			.box-img {
+				border-radius: 50%;
+				width: 200px;
+				height: 200px;
+			}
+			.box h1 {
+				font-size: 40px;
+				letter-spacing: 4px;
+				font-weight: 100;
+			}
+			.box h5 {
+				font-size: 24px;
+				letter-spacing: 2px;
+				font-weight: 100;
+			}
+			.box p {
+				text-align: justify;
+			}
+			ul {
+				margin: 0;
+				padding: 0;
+			}
+			.box li {
+				display: inline-block;
+				margin: 6px;
+				list-style: none;
+			}
+			.box li a {
+				color: white;
+				text-decoration: none;
+				font-size: 60px;
+				transition: all ease-in-out 250ms;
+			}
+			.box li a:hover {
+				color: #b9b9b9;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<img src="img/logo.png" alt="" class="box-img"/>
+			<h1>安大计科女篮</h1>
+			<h5>安徽大学计算机科学与技术学院</h5>
+			<p style="text-align: center; font-size: 24px;">
+				女子篮球队
+			</p>
+			<ul>
+				<li>
+					<a href="img/qccode.png"><i class="fab fa-qq"></i></a>
+				</li>				
+			</ul>
+		</div>
+	</body>
+</html>

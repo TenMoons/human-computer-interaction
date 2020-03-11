@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>队员信息</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/5.8.0/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            font-family: tahoma;
+            background-image: url(person/bg.png);
+            background-size: cover;
+        }
+
+        .testimonial{
+            background: white;
+            text-align: center;
+            padding: 30px 30px 50px;
+            margin: 0 15px 100px;
+            position: relative;
+            margin-top: 120px;
+        }
+
+        .testimonial:before,
+        .testimonial:after{
+            content: "";
+            border-top: 40px solid white;
+            border-right: 125px solid transparent;
+            position: absolute;
+            bottom: -40px;
+            left: 0;
+        }
+
+        .testimonial::after{
+            border-right: none;
+            border-left: 125px solid transparent;
+            left: auto;
+            right: 0;
+        }
+
+        .testimonial .icon{
+            display: inline-block;
+            font-size: 80px;
+            color: #a3afd7;
+            margin-bottom: 20px;
+            opacity: 0.6;
+        }
+
+        .testimonial .description{
+            font-size: 16px;
+            color: #777777;
+            text-align: center;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            letter-spacing: 1px;
+            font-family:'Courier New', Courier, monospace;
+        }
+
+        .testimonial .testimonial-content{
+            width: 100%;
+            position: absolute;
+            left: 0;
+        }
+
+        .testimonial .pic{
+            display: inline-block;
+            border: 4px solid white;
+            border-radius: 50%;
+            box-shadow: 0 0 2px 2px #a3afd7;
+            overflow: hidden;
+            z-index: 1;
+            position: relative;
+        }
+
+        .testimonial .pic img{
+            width: 100%;
+            height: auto;
+        }
+
+        .testimonial.title{
+            font-size: 15px;
+            font-weight: 100;
+            color: white;
+            text-transform: capitalize;
+            margin: 0 0 5px 0;
+        }
+
+        .testimonial .post{
+            display: block;
+            font-size: 18px;
+            color: #bcc7ec;
+            font-family:'Courier New', Courier, monospace;
+        }
+
+        .pic img{
+            width: 200px !important;
+            height: 50px;
+        }
+
+        .owl-theme .owl-controls{
+            margin-top: 60;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="demo">
+        <div class="container">
+            <div class="row">
+                <div id="testimonial-slider" class="owl-carousel">
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Point Guard
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/3.png" alt="">
+                            </div>
+                            <h3 class="title">3 胡梦飞</h3>
+                            <span class="post">Hu MengFei</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Power Forward
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/4.png" alt="">
+                            </div>
+                            <h3 class="title">4 周颖</h3>
+                            <span class="post">Zhou Ying</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Power Forward
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/7.png" alt="">
+                            </div>
+                            <h3 class="title">7 孙佳怡</h3>
+                            <span class="post">Sun Jiayi</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Power Forward
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/10.png" alt="">
+                            </div>
+                            <h3 class="title">10 金海欣</h3>
+                            <span class="post">Jin Haixin</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Point Guard; Shooting Guard
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/11.png" alt="">
+                            </div>
+                            <h3 class="title">11 石月</h3>
+                            <span class="post">Shi Yue</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Point Guard; Shooting Guard
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/13.png" alt="">
+                            </div>
+                            <h3 class="title">13 范凌敏</h3>
+                            <span class="post">Fan Lingmin</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Small Forward
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/12.png" alt="">
+                            </div>
+                            <h3 class="title">12 任玥</h3>
+                            <span class="post">Ren Yue</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Power Forward; Center
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/16.png" alt="">
+                            </div>
+                            <h3 class="title">16 刘巳祺</h3>
+                            <span class="post">Liu Siqi</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Center
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/18.png" alt="">
+                            </div>
+                            <h3 class="title">18 杜彤瑶</h3>
+                            <span class="post">Du Tongyao</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Point Guard
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/19.png" alt="">
+                            </div>
+                            <h3 class="title">19 陈梦雪</h3>
+                            <span class="post">Chen Mengxue</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                           Point Guard 
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/24.png" alt="">
+                            </div>
+                            <h3 class="title">24 汪悦</h3>
+                            <span class="post">Wang Yue</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Small Forward
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/65.png" alt="">
+                            </div>
+                            <h3 class="title">65 丁思萌</h3>
+                            <span class="post">Ding Simeng</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Small Forward
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/85.png" alt="">
+                            </div>
+                            <h3 class="title">85 李雯雯</h3>
+                            <span class="post">Li Wenwen</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Power Forward
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/99.png" alt="">
+                            </div>
+                            <h3 class="title">99 王玉美</h3>
+                            <span class="post">Wang Yumei</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Manager
+                        </p>
+                        <div class="textimonial-content">
+                            <div class="pic">
+                                <img src="person/yyf.png" alt="">
+                            </div>
+                            <h3 class="title">经理 杨云帆</h3>
+                            <span class="post">Yang Yunfan</span>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.4.1.js""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#testimonial-slider").owlCarousel({
+            items:3,
+            itemsDesktop:[800,3],
+            itemsDesktopSmall:[700,2],
+            itemsTablet:[600,2],
+            itemsMobile:[650,1],
+            pagination:true,
+            autoPlay:true
+        })
+    });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>赛事记录</title>
+    <style>
+        body{
+            font-family: 'Roboto Condensed', sans-serif;
+            background: #ebebeb;
+            overflow: hidden;
+        }
+            
+        .testimonial-arrow {
+            z-index: 1;
+            bottom: -14px;
+            left: 45%;
+            width: 10px;
+            height:0;
+            border-top: 15px solid #ffffff;
+            border-left: 13px solid transparent;
+            border-right: 13px solid transparent;
+        }
+        .testimonial-text {
+            background: #ffffff;
+            padding: 3rem 1.4rem;
+            border-radius: 10px;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .testimonial-text p {
+            padding-bottom: 1.8rem;
+            line-height: 24px;
+        }
+        .testimonial-date {
+            font-size: 14px;
+            color: #acacac;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .testimonial-photo {
+            height: 89px;
+            width: 130px;
+            margin: 10px auto 0 auto;
+        }
+        .testimonial-photo > img {
+            -webkit-border-radius: 30%; border-radius: 20%;
+            height: 80px;
+            width: 160px;
+        }
+        .testimonial-item h5 {
+            font-size: 30px;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .testimonial-item p{
+            font-size: 24px;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .testimonial-item {
+            cursor: pointer;
+        }
+        .testimonial-text:hover {
+            background: #fb5279;
+        }
+        .testimonial-text:hover p {
+            color: #ffffff;
+        }
+        .testimonial-text:hover .testimonial-date {
+            color: #fff;
+        }
+        .testimonial-text:hover .testimonial-arrow {
+            border-top-color: #fb5279;
+        }
+
+        /* testimonial two */
+        .testimonial-two{
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+        }
+        .testimonial-post {
+            overflow: hidden;
+            display: table;
+        }
+        .testimonial-post .post, .testimonial-post .text-content {
+            display: table-cell;
+        }
+        .testimonial-post .post {
+            height: 60px;
+            width: 60px;
+        }
+        .testimonial-post .post > img {
+            width: 100%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+        .testimonial-post .text-content {
+            vertical-align: middle;
+            padding-left: 10px;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .testimonial-post:hover a, .testimonial-post:focus a {
+            color: #f1c30f;
+        }
+        .testimonial-two .testimonial-para:before{
+            display: block;
+            font-size: 33px;
+            color: #535353;
+            margin-bottom: 15px;
+            content: "\e67f";
+            font-family: 'themify';
+        }
+        .testimonial-two .testimonial-item h5{
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+        .testimonial-two .testimonial-item .rating{
+            margin-top: 5px;
+        }
+        .testimonial-two .testimonial-item .rating i{
+            font-size: 15px;
+            color: #f1c30f;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="client">
+        <div class="container-fluid testimonial-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-title">
+                        <br><br>
+                        <h1 class="text-center">MATCH RESULTS</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-12 align-items-center">
+                <div class="owl-testimonial owl-carousel owl-theme">
+                    <div class="testimonial-item text-center">
+                        <div class="testimonial-box">
+                            <div class="testimonial-text">
+                                <p>
+                                    We won. 
+
+                                </p>
+                            <span class="testimonial-date">
+                                October 09, 2019
+                            </span>
+                            <span class="testimonial-arrow"></span>
+                            </div>
+                        </div>
+                        <div class="testimonial-photo">
+                            <img src="competition/1.jpg" alt="">
+                        </div>
+                        <h5 class="text-capitalize">
+                          计科 - 文学
+                        </h5>
+                        <p>
+                            22:18
+                        </p>
+                    </div>
+
+                    <div class="testimonial-item text-center">
+                        <div class="testimonial-box">
+                            <div class="testimonial-text">
+                                <p>
+                                    We won. 
+
+                                </p>
+                            <span class="testimonial-date">
+                                October 15, 2019
+                            </span>
+                            <span class="testimonial-arrow"></span>
+                            </div>
+                        </div>
+                        <div class="testimonial-photo">
+                            <img src="competition/2.jpg" alt="">
+                        </div>
+                        <h5 class="text-capitalize">
+                          计科 - 生科
+                        </h5>
+                        <p>
+                            38:11
+                        </p>
+                    </div>
+
+                    <div class="testimonial-item text-center">
+                        <div class="testimonial-box">
+                            <div class="testimonial-text">
+                                <p>
+                                    We failed. 
+                                </p>
+                            <span class="testimonial-date">
+                                October 16, 2019
+                            </span>
+                            <span class="testimonial-arrow"></span>
+                            </div>
+                        </div>
+                        <div class="testimonial-photo">
+                            <img src="competition/3.jpg" alt="">
+                        </div>
+                        <h5 class="text-capitalize">
+                          计科 - 新传
+                        </h5>
+                        <p>
+                            10:30
+                        </p>
+                    </div>
+
+                    <div class="testimonial-item text-center">
+                        <div class="testimonial-box">
+                            <div class="testimonial-text">
+                                <p>
+                                    We won. 
+
+                                </p>
+                            <span class="testimonial-date">
+                                October 17, 2019
+                            </span>
+                            <span class="testimonial-arrow"></span>
+                            </div>
+                        </div>
+                        <div class="testimonial-photo">
+                            <img src="competition/4.jpg" alt="">
+                        </div>
+                        <h5 class="text-capitalize">
+                          计科 - 互联网
+                        </h5>
+                        <p>
+                            24:14
+                        </p>
+                    </div>
+
+                    <div class="testimonial-item text-center">
+                        <div class="testimonial-box">
+                            <div class="testimonial-text">
+                                <p>
+                                    We won. 
+
+                                </p>
+                            <span class="testimonial-date">
+                                October 18, 2019
+                            </span>
+                            <span class="testimonial-arrow"></span>
+                            </div>
+                        </div>
+                        <div class="testimonial-photo">
+                            <img src="competition/5.jpg" alt="">
+                        </div>
+                        <h5 class="text-capitalize">
+                          计科 - 电子
+                        </h5>
+                        <p>
+                            24:20
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script>       
+        $(function(){
+    
+        if ($("body").hasClass("rtl-layout")) {
+            $(".owl-team").owlCarousel({
+                items: 3,
+                margin: 30,
+                dots: true,
+                nav: true,
+                loop: true,
+                autoplay: true,
+                smartSpeed: 1000,
+                navSpeed: true,
+                autoplayHoverPause: true,
+                responsiveClass: true,
+                rtl: callback,
+                responsive: {
+                    992: {
+                        items: 4,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    320: {
+                        items: 1,
+                    },
+                }
+            });
+            $(".owl-testimonial").owlCarousel({
+                autoplay: 1000,
+                smartSpeed: 1500,
+                margin: 30,
+                slideBy: 1,
+                autoplayHoverPause: true,
+                loop: true,
+                dots: true,
+                nav: true,
+                rtl: callback,
+                responsive: {
+                    1200: {
+                        items: 4
+                    },
+                    992: {
+                        items: 3
+                    },
+                    600: {
+                        items: 2
+                    },
+                    320: {
+                        items: 1
+                    },
+                }
+            });
+        }
+        /* Testimonial One */
+        $(".owl-testimonial").owlCarousel({
+            autoplay: 1000,
+            smartSpeed: 1500,
+            margin: 30,
+            slideBy: 1,
+            autoplayHoverPause: true,
+            loop: true,
+            dots: true,
+            nav: true,
+            responsive: {
+                1200: {
+                    items: 4
+                },
+                992: {
+                    items: 3
+                },
+                600: {
+                    items: 2
+                },
+                320: {
+                    items: 1
+                },
+            }
+        });
+        });
+    </script>
+</body>
+</html>
